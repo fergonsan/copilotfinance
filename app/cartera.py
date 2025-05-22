@@ -34,7 +34,7 @@ def limpiar_valor(valor_str):
 # === Función principal del módulo ===
 def leer_y_consolidar_cartera():
     # Rutas
-    ruta_credenciales = Path(__file__).resolve().parents[2] / "data" / "credentials.json"
+    ruta_credenciales = Path(__file__).resolve().parents[1] / "data" / "credentials.json"
     credenciales = str(ruta_credenciales)
 
     # === CONFIGURA ESTO ===
